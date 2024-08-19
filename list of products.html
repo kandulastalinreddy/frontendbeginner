@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Management</title>
+    <style>
+        .container {
+            background-color: rgb(21, 21, 63);
+            min-height: 600px;
+            padding: 30px;
+        }
+
+        img {
+            width: 115px;
+            height: 70px;
+        }
+
+        #A {
+            background-color: rgb(5, 5, 31);
+        }
+
+        table {
+            display: flex;
+            padding-top: 10px;
+        }
+
+        .no-vertical-borders {
+            border-collapse: collapse;
+        }
+
+        .no-vertical-borders td {
+            border: none;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(30, 39, 86); color: white; margin-left: 25px; margin-right: 40px; margin-top: 30px;">
+    <span>YOU ARE HERE</span> > <span style="color:rgb(5, 48, 207)">App</span> > <span
+        style="color:rgb(5, 48, 207)">Ecommerce</span> > <span>Management</span>
+</body><br><br>
+<span style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Product</span> - <span
+    style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Management</span>
+<span style="background-color: rgb(11, 182, 11); padding: 7px; float: right; border-radius: 4px;">This Page is only
+    available in <span style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;">Light Blue
+        React with Node.JS/.NET </span>integration!</span><br><br>
+<div class="container">
+    List of Products <br><br>
+    <button style="padding: 5px; background-color: rgb(11, 182, 11); border-radius: 6px;">Create Product</button><br>
+    <input style="float: right; padding-right: 150px; background-color: rgb(7, 7, 46);color: white;" type="text"
+        placeholder="Search"><br><br><br>
+    <table class="no-vertical-borders">
+        <tr>
+            <td style="padding-right: 30px; padding-left: 15px;">ID</td>
+            <td style="padding-right: 150px;">IMAGE</td>
+            <td style="padding-right: 175px;">TITLE</td>
+            <td style="padding-right: 150px;">SUBTITLE</td>
+            <td style="padding-right: 175px;">PRICE($)</td>
+            <td style="padding-right: 175px;">RATING</td>
+            <TD style="padding-right: 180px;">API</TD>
+        </tr>
+        <tr id="A">
+            <td style="padding-left: 15px;">1</td>
+            <td><img src="trainers white.jpeg" alt=""></td>
+            <td style="color: rgb(5, 48, 207)">Trainers</td>
+            <td>Trainers in White</td>
+            <td style="color: green
+            ">76</td>
+            <td style="color: gold;">4.6 ⭐</td>
+            <td><button style="background-color: rgb(34, 93, 203); border-radius: 3px;">Edit</button> <button
+                    style="background-color: rgb(231, 53, 53); border-radius: 3px;">Delete</button></td>
+        </tr>
+        <tr id="B">
+            <td style="padding-left: 15px;">2</td>
+            <td><img src="boots.jpeg" alt=""></td>
+            <td style="color: rgb(5, 48, 207)">Boots</td>
+            <td>Trainers in Blue</td>
+            <td style="color: green">45</td>
+            <td style="color: gold;">4.6 ⭐</td>
+            <td><button style="background-color: rgb(34, 93, 203); border-radius: 3px;">Edit</button> <button
+                    style="background-color: rgb(231, 53, 53); border-radius: 3px;">Delete</button></td>
+        </tr>
+        <tr id="A">
+            <td style="padding-left: 15px;">3</td>
+            <td><img src="flat sandale.jpeg" alt=""></td>
+            <td style="color: rgb(5, 48, 207)">Flat Sandals</td>
+            <td>Trainers in White</td>
+            <td style="color: green">55</td>
+            <td style="color: gold;">4.6 ⭐</td>
+            <td><button style="background-color: rgb(34, 93, 203); border-radius: 3px;">Edit</button> <button
+                    style="background-color: rgb(231, 53, 53); border-radius: 3px;">Delete</button></td>
+        </tr>
+        <tr id="B">
+            <td style="padding-left: 15px;">4</td>
+            <td><img src="trainers orange white.jpeg" alt=""></td>
+            <td style="color: rgb(5, 48, 207)">Trainers</td>
+            <td>Trainers in White</td>
+            <td style="color: green">76</td>
+            <td style="color: gold;">4.6 ⭐</td>
+            <td><button style="background-color: rgb(34, 93, 203); border-radius: 3px;">Edit</button> <button
+                    style="background-color: rgb(231, 53, 53); border-radius: 3px;">Delete</button></td>
+        </tr>
+        <tr id="A">
+            <td style="padding-left: 15px;">5</td>
+            <td><img src="boots sky.jpeg" alt=""></td>
+            <td style="color: rgb(5, 48, 207)">Boots</td>
+            <td>Trainers in Blue</td>
+            <td style="color: green">45</td>
+            <td style="color: gold;">4.6 ⭐</td>
+            <td><button style="background-color: rgb(34, 93, 203); border-radius: 3px;">Edit</button> <button
+                    style="background-color: rgb(231, 53, 53); border-radius: 3px;">Delete</button></td>
+        </tr>
+        <tr id="B">
+            <td style="padding-left: 15px;">6</td>
+            <td><img src="falt white.jpeg" alt=""></td>
+            <td style="color: rgb(5, 48, 207)">Flat Sandals</td>
+            <td>Trainers in White</td>
+            <td style="color: green">55</td>
+            <td style="color: gold;">4.6 ⭐</td>
+            <td><button style="background-color: rgb(34, 93, 203); border-radius: 3px;">Edit</button> <button
+                    style="background-color: rgb(231, 53, 53); border-radius: 3px;">Delete</button></td>
+        </tr>
+    </table>
+</div>
+
+</html>
